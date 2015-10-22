@@ -1,0 +1,89 @@
+.container{
+  width: 540px;
+  height: 395px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calendar{
+  font-family: Arial, sans-serif;
+}
+
+.c-header{
+  height: 30px;
+  border-bottom: 1px solid #bebebe;
+}
+
+.c-btn{
+  width: 45px;
+  height: 25px;
+  border-radius: 4px;
+  background: #1A61B3;
+  font-size: 11px;
+}
+
+.c-btn div{
+  color: #fff;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.c-btn:hover{
+  cursor: pointer;
+}
+
+.l-btn{
+  float: left;
+}
+
+.r-btn{
+  float: right;
+}
+
+.c-year{
+  float: left;
+  width: 450px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.c-days{
+  height: 30px;
+  border-bottom: 2px solid #bebebe;
+}
+
+.c-dayname{
+  width: 77px;
+  height: 30px;
+  float: left;
+  font-size: 12px;
+}
+
+.c-dayname div{
+  text-align: center;
+  padding-top: 14px;
+}
+
+.c-grid{
+  height: 230px;
+  width: 540px;
+}
+
+.c-grid-wrap{
+  width: 77px;
+  height: 47px;
+  float: left;
+}
+
+.c-grid-block:hover,.active{
+  background: #1A61B3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.inner{
+  text-align: center;
+  padding-top: 16px;
+  font-size: 12px;
+}
