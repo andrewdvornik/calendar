@@ -196,7 +196,7 @@
     }else{
       var getAllElementsWithAttribute = function(attribute){
         var matchingElements = [],
-            allElements = document.getElementsByTagName('*');
+          allElements = document.getElementsByTagName('*');
 
         for(var i = 0, n = allElements.length; i < n; i++){
           if(allElements[i].getAttribute(attribute) !== null){
